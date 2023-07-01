@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Araboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Araboto', sans-serif;
+}
+
+/* Grid style section */
+.container {
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(10, 10%);
+}
+
+.img-container {
+    grid-column: 1/26;
+    grid-row: 1/2;
+}
+
+.hero-section {
+    grid-column: 2/25;
+    grid-row: 6/9;
+}
+
+.hero-section {
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.text-container {
+    grid-column: 2/21;
+    grid-row: 2/4;
+}
+
+.buttons-container {
+    grid-column: 4/17;
+    grid-row: 4/5;
+}
+/* END */
+
+.container {
+    background-color: #4ef6ae;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.hero-section {
+    border: solid 10px #030404;
+    background-color: white;
+}
+
+.text-container {
+    border-left: solid 15px #525453;
+}
+
+.text {
+    margin-left: 7px;
+    font-size: xx-large;
+}
+
+.text p {
+    font-size: x-large;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    padding: 20px 40px;
+    border-radius: 35px;
+}
+
+.enroll-now {
+    border: solid #1efb9c;
+    background-color: #1efb9c;
+}
+
+.login {
+    border: solid #e64143;
+    background-color: #e64143;
+}
