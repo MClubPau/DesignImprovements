@@ -1,4 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Araboto:wght@700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Araboto', sans-serif;
 }
+
+.container {
+    background-color: #4ef6ae;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.text-container {
+    border-left: solid 7px #525453;
+    padding-left: 8px;
+}
+
+.text p {
+    font-size: 12px;
+}
+
+.button {
+    text-decoration: none;
+}
+
