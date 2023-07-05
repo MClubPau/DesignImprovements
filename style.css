@@ -41,6 +41,7 @@
 .button {
     text-decoration: none;
     margin-right: 10px;
+    border-radius: 25px;
 }
 
 .enroll-now {
