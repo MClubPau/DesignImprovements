@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Design Improvements</title>
+</head>
+<body>
+
+    <section class="container">
+        <figure class="img-container">
+            <img class="hero-img" src="assets/hero.jpg" alt="Hero">
+        </figure>
+
+        <div class="hero-section">
+            <div class="text-container">
+                <div class="text">
+                    <h1>COMPLETE EDUCATION SOLUTION</h2>
+                    <h1>BLENDED & TRADITIONAL LEARNING</h2>
+                    <p>IN AN INNOVATIVE E-LEARNING ENVIRONMENT</p>
+                    <br>
+                </div>
+            </div>
+
+            <div class="buttons-container">
+                <a class="button enroll-now" href=""><b>ENROLL NOW</b></a>
+                <a class="button login" href=""><b>LOGIN</b></a>
+            </div>
+        </div>
+
+        <div class="content-container">
+            <figure>
+                <img src="assets/up-logo.png" alt="University of the Philippines">
+            </figure>
+
+            <figure>
+                <img src="assets/deped-logo.png" alt="Department of Education">
+            </figure>
+
+            <figure>
+                <img src="assets/letran-logo.png" alt="Letran">
+            </figure>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse laoreet congue orci quis faucibus.
+                Ut quis cursus lectus.
+                Donec fringilla ut dui at fringilla.
+                Phasellus ac ligula semper, mattis tellus imperdiet, pulvinar nisi.
+                Aliquam lectus velit, scelerisque eget venenatis et, luctus vel turpis.
+                Sed in erat diam.
+                Aliquam eleifend eros eget pretium gravida.
+                Aenean vehicula aliquam semper.
+                Donec aliquet turpis uma, in tincidunt orci sollicitudin in.
+            </p>
+        </div>
+    </section>
+    
+</body>
+</html>

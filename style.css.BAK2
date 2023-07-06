@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Araboto:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Araboto', sans-serif;
+}
+
+.container {
+    background-color: #4ef6ae;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero-section {
+    background-color: white;
+    border: solid 5px black;
+    border-radius: 27px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 20px 40px;
+    margin: 0 30px;
+}
+
+.text-container {
+    border-left: solid 7px #525453;
+    padding-left: 8px;
+}
+
+.text p {
+    font-size: 12px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.enroll-now {
+    color: black;
+    border: solid 15px #4ef6ae;
+    background-color: #4ef6ae
+}
+
+.login {
+    color: white;
+    border: solid 15px red;
+    background-color: red;
+}
